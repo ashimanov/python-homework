@@ -35,14 +35,14 @@ class Cat(Pet):
         print('Мяу!')
 
 
-# here we create Fluffy, an instance of Dog subclass and call its methods
+# Fluffy is created, an instance of the Dog subclass and its methods are called
 Fluffy = Dog('Fluffy', 'dog', 3, 'male', 'Husky')
 Fluffy.bark()
 Fluffy.get_info()
 
 print(' ') # just a spacer to visually enhance the output
 
-# here we create Furball, an instance of Cat subclass and call its methods
+# Furball is created, an instance of the Cat subclass and its methods are called
 Furball = Cat('Furball', 'cat', 2, 'male', 'grey')
 Furball.meow()
 Furball.get_info()
