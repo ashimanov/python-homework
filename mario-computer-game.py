@@ -77,7 +77,7 @@ class Player1:
 
 # Вот как можно протестировать:
 player = Player1()
-player.walk_right(10150)
-player.walk_left(50)
+player.walk_right(150)
+player.walk_left(350)
 player.jump(20)
 print(player)
